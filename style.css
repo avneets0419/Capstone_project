@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #080F17;
+  margin: 0 48px;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #080F17;
+    display:flex;
+    justify-content: space-between;
+    margin: 0px;
+    /* border-bottom: 1px solid white;   */
+
+}
+label.logo{
+    font-size: 42px;
+    font-weight: bold;
+    color: #D6DDE6;
+    line-height: 80px;
+    padding: 0 100px 0 0;
+}
+nav{
+    flex-direction: row;
+   
+}
+nav ul{
+    /* float: right; */
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+/* nav ul li:last-child{
+    padding-right: 48px;
+
+} */
+    
+
+nav ul li a{
+    color: #D6DDE6;
+    font-size: 28px;
+    margin: 0 5px;
+    
+}
+
+main{
+    width: 100%;
+    height: 1152px;
+}
+
+.heading{
+    
+    display: flex;
+    text-align: center;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+h1{
+    font-size: 120px;
+    color: #D6DDE6;
+    font-weight: bold;
+
+}
+.hero_image img{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    gap: 48px;
+}
+
+.item h2{
+    color: #D6DDE6;
+    font-size: 20px;
+}
+.item p{
+    color: #D6DDE662;
+}
+
+.container_1, .container_2, .container_3{
+    padding: 48px 0;
+}
+
+about h3{
+    color: #D6DDE6;
+    font-size: 48px;
+    text-align: center;
+    /* width: 900px; */
+    padding: 96px 222px;
+    font-weight: 600;
+}
+
+
+
