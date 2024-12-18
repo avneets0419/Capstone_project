@@ -109,5 +109,184 @@ about h3{
     font-weight: 600;
 }
 
+.part4{
+    height: 50%;
+    width: 100%;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20rem;
+
+
+}
+
+.part4-contact{
+    height: 65%;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me{
+    
+    width: 100%;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #D6DDE6;
+}
+
+.pin{
+    width: 65%;
+    height: 35%;
+
+    max-height: 60px;
+    display: flex;
+    justify-content: space-around;
+
+   
+
+
+
+    
+}
+
+.pinbox
+{
+    height: 100%;
+    width: 15%;
+    transition-duration: 0.5s;
+    
+}
+
+.pinbox>input{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+    text-align: center;
+
+    background-color: #111920;
+    border: 2px solid #3f454b;
+    color: #5c656c;
+    font-size: 1rem;
+    
+}
+
+.pinbox:hover{
+    transform: scale(1.1);
+}
+
+
+
+.submit{
+    width: 100%;
+    height: 15%;
+    
+    
+    display: flex;
+    justify-content: center;
+}
+
+.submit>input{
+    height: 100%;
+    width: 70%;
+    border-radius: 0.5rem;
+    color: #091616;
+    background-color: #a7ee43;
+    border: none;
+    cursor:pointer;
+    transition-duration: 0.5s;
+
+}
+
+.submit>input:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.submit>input:active{
+    transition: 0.5s;
+    transform: scale(1.025);
+}
+
+.skip{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skip>input{
+    color: #a7ee43;
+    background-color: #070f17;
+    border: none;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.skip>input:hover{
+    transform: scale(1.2);
+    transition-duration: 0.75s;
+}
+
+.skip>input:active{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+footer{
+    height: 8%;
+    width: 100%;
+    
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer>.water-mark{
+    color: #717981;
+    font-size: 1.75rem;
+    margin-left: 2rem;
+    
+}
+
+footer>.follow>input{
+    background-color: #070f17;
+    color: #d6dde6;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    border: 2px solid #242b33;
+    transition-duration: 0.5s;
+
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+
+
+    font-size: 1.25rem;
+
+}
+
+.follow>input:hover{
+    transform: scale(1.1);
+}
+
+.follow>input:active{
+    transform: scale(1.005);
+}
+
+
+
 
 
