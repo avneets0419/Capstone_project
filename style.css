@@ -20,6 +20,7 @@ header {
     display:flex;
     justify-content: space-between;
     margin: 0;
+    align-items: center;
     /* border-bottom: 1px solid white;   */
 
 }
@@ -29,6 +30,16 @@ label.logo{
     color: #D6DDE6;
     line-height: 5rem;
     /* padding: 0 6.25em 0 0; */
+}
+form{
+    display: none;
+}
+
+.dropdown{
+    background-color: #080F17;
+    color: white;
+    border: none;
+    font-size: 1.3em;
 }
 nav{
     flex-direction: row;
@@ -68,7 +79,7 @@ main{
     display: flex;
     text-align: center;
     height: 15em;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 2em 0;
     width: 100%;
@@ -171,7 +182,7 @@ contact p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0;
+    padding: 5rem 0;
 
 
    
@@ -375,7 +386,7 @@ footer>.follow>input{
     }
 
 }   
-@media(max-width: 640px){
+@media(max-width: 650px){
     footer-menu{
         color: #D6DDE6;
         height: fit-content;
@@ -388,5 +399,45 @@ footer>.follow>input{
     .menu-sub p{
         font-size: 1em;
     }
+    form{
+        display: inline;
+    }
+    nav{
+        display: none;
+    }
+    label.logo{
+        font-size: 2em;
+    }
+    h1{
+        font-size: 1em;
+    }
+
+    footer>.water-mark{
+        color: #717981;
+        font-size: 1.25rem;
+       margin:0;
+        
+    }
+
+    footer>.follow>input{
+        cursor: pointer;
+        margin-right: 0;
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+    
+    }
+
+    about h3{
+        color: #D6DDE6;
+        font-size: 1.5em;
+        text-align: center;
+        /* width: 900px; */
+        padding: 4em 0;
+        font-weight: 600;
+    }
+    
 }
+
+
+
 
